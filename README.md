@@ -1,7 +1,7 @@
-# Ex.No:1a  			Study of Socket Programming
+# Ex.No:1a  			STUDY OF SOCKET PEOGRAMMING
 
 ## Aim: 
-To perform a study on Socket Programming
+To perform a study on Socket Programming.
 ## Introduction:
 
  	Socket programming is a crucial aspect of network communication, allowing for data exchange between computers over a network. It forms the backbone of various networked applications, enabling communication between clients and servers. This study explores the fundamental concepts of socket programming, its use cases, and provides a practical example to demonstrate its implementation.
@@ -55,9 +55,9 @@ Socket programming finds applications in various domains, including web developm
 
 ## Program :
 
+```
 ##Client:
 
-```
 import socket
 s=socket.socket()
 s.bind(('localhost',8000))
@@ -75,9 +75,12 @@ c.close()
 break
 ```
 
-##Server:
 
 ```
+
+##Server:
+
+
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
@@ -85,10 +88,18 @@ while True:
  print(s.recv(1024).decode())
  s.send("Acknowledgement Recived".encode())
 ```
+
+
 ##Output:
+
+
 ##Client:
 ![WhatsApp Image 2024-04-30 at 21 49 04_851e2133](https://github.com/JAYASREE24032006/SocketStudy/assets/144360800/0ef7ed30-2511-4b39-9929-f55e63c450ff)
+
+
 ##Server:
+
+
 ![WhatsApp Image 2024-04-30 at 21 49 30_58379c5a](https://github.com/JAYASREE24032006/SocketStudy/assets/144360800/12f0e5be-d3ab-4275-b361-741d8c5ceea4)
 
 
@@ -97,4 +108,4 @@ while True:
 
 
 ## Result:
-Thus the study of Socket Programming Completed Successfully
+Thus the study of Socket Programming Completed Successfully.
