@@ -1,4 +1,4 @@
-# Ex.No:1a  			STUDY OF SOCKET PEOGRAMMING
+# EX.NO.1A 			STUDY OF SOCKET PEOGRAMMING
 
 ## Aim: 
 To perform a study on Socket Programming.
@@ -13,21 +13,16 @@ To perform a study on Socket Programming.
 •	It is identified by an IP address and a port number.
 •	Sockets can be classified into two main types: Stream Sockets and Datagram Sockets.
 •	Stream Sockets provide a reliable, connection-oriented communication, while Datagram Sockets are connectionless and operate in a best-effort mode.
-
 2. Client-Server Model
 
 •	Socket programming typically follows the client-server model.
 •	The server listens for incoming connections from clients, while clients initiate connections to the server.
 •	Servers are passive, waiting for connection requests, and clients are active, initiating communication.
-
 3, TCP/IP Protocol:
-
 •	Transmission Control Protocol (TCP) and Internet Protocol (IP) are the foundational protocols for socket programming.
 •	TCP provides reliable, connection-oriented communication, ensuring data integrity and order.
 •	IP facilitates the routing of data between devices in a network.
-
 4.Basic Socket Functions:
-
 •	Socket programming involves a set of functions provided by the operating system or programming language to create, bind, listen, accept, connect, send, and receive data through sockets.
 •	Examples of functions include socket(), bind(), listen(), accept(), connect(), send(), and recv().
 
@@ -55,9 +50,8 @@ Socket programming finds applications in various domains, including web developm
 
 ## Program :
 
+## Client :
 ```
-##Client:
-
 import socket
 s=socket.socket()
 s.bind(('localhost',8000))
@@ -73,14 +67,13 @@ continue
 else:
 c.close()
 break
-```
-
 
 ```
 
-##Server:
 
+## Server :
 
+```
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
@@ -90,14 +83,14 @@ while True:
 ```
 
 
-##Output:
+## Output:
 
 
-##Client:
+## Client:
 ![WhatsApp Image 2024-04-30 at 21 49 04_851e2133](https://github.com/JAYASREE24032006/SocketStudy/assets/144360800/0ef7ed30-2511-4b39-9929-f55e63c450ff)
 
 
-##Server:
+## Server:
 
 
 ![WhatsApp Image 2024-04-30 at 21 49 30_58379c5a](https://github.com/JAYASREE24032006/SocketStudy/assets/144360800/12f0e5be-d3ab-4275-b361-741d8c5ceea4)
