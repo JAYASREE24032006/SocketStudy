@@ -57,8 +57,7 @@ To perform a study on Socket Programming.
 
 3.	Once a connection is established.
    
-4.	shed, servers can send and receive data using send() and recv().
-5.	
+4.	shed, servers can send and receive data using send() and recv().	
 
 ## Client –Server Operations:
 
