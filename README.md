@@ -1,4 +1,4 @@
-# EX.NO.1A 			STUDY OF SOCKET PEOGRAMMING
+# EX.NO.1A - 			STUDY OF SOCKET PEOGRAMMING
 
 ## Aim: 
 To perform a study on Socket Programming.
@@ -13,7 +13,7 @@ To perform a study on Socket Programming.
  
 ## Key Concepts in Socket Programming:
 
-## 1.Sockets
+## 1 . Sockets
 
 
 •	A socket is a software representation of a communication endpoint in a network.
@@ -25,7 +25,7 @@ To perform a study on Socket Programming.
 •	Stream Sockets provide a reliable, connection-oriented communication, while Datagram Sockets are connectionless and operate in a best-effort mode.
 
 
-## 2.Client-Server Model
+## 2 . Client-Server Model
    
 
 •	Socket programming typically follows the client-server model.
@@ -35,7 +35,7 @@ To perform a study on Socket Programming.
 •	Servers are passive, waiting for connection requests, and clients are active, initiating communication.
 
 
-## 3.TCP/IP Protocol:
+## 3 . TCP/IP Protocol:
 
 
 •	Transmission Control Protocol (TCP) and Internet Protocol (IP) are the foundational protocols for socket programming.
@@ -45,7 +45,7 @@ To perform a study on Socket Programming.
 •	IP facilitates the routing of data between devices in a network.
 
 
-## 4.Basic Socket Functions:
+## 4 . Basic Socket Functions:
 
 
 •	Socket programming involves a set of functions provided by the operating system or programming language to create, bind, listen, accept, connect, send, and receive data through sockets.
