@@ -9,7 +9,7 @@ To perform a study on Socket Programming.
 	Socket programming involves the use of sockets, which serve as endpoints for communication. A socket is identified by an IP address and a port number, and it facilitates data transfer between a client and a server. The two main types of sockets are Stream Sockets, which provide a reliable, connection-oriented communication, and Datagram Sockets, which are connectionless and suitable for scenarios where reliability is less critical.
 ## Key Concepts in Socket Programming:
 
-1.Sockets
+## 1.Sockets
 
 
 •	A socket is a software representation of a communication endpoint in a network.
@@ -21,7 +21,7 @@ To perform a study on Socket Programming.
 •	Stream Sockets provide a reliable, connection-oriented communication, while Datagram Sockets are connectionless and operate in a best-effort mode.
 
 
-2. Client-Server Model
+## 2.Client-Server Model
    
 
 •	Socket programming typically follows the client-server model.
@@ -31,7 +31,7 @@ To perform a study on Socket Programming.
 •	Servers are passive, waiting for connection requests, and clients are active, initiating communication.
 
 
-3, TCP/IP Protocol:
+## 3.TCP/IP Protocol:
 
 
 •	Transmission Control Protocol (TCP) and Internet Protocol (IP) are the foundational protocols for socket programming.
@@ -41,7 +41,7 @@ To perform a study on Socket Programming.
 •	IP facilitates the routing of data between devices in a network.
 
 
-4.Basic Socket Functions:
+## 4.Basic Socket Functions:
 
 
 •	Socket programming involves a set of functions provided by the operating system or programming language to create, bind, listen, accept, connect, send, and receive data through sockets.
@@ -51,10 +51,14 @@ To perform a study on Socket Programming.
 
 ## Server-Side Operations:
 
-•	Servers create a socket using socket() and bind it to a specific IP address and port using bind().
-•	They then listen for incoming connections with listen() and accept connections with accept().
-•	Once a connection is establi
-•	shed, servers can send and receive data using send() and recv().
+1.	Servers create a socket using socket() and bind it to a specific IP address and port using bind().
+
+2.	They then listen for incoming connections with listen() and accept connections with accept().
+
+3.	Once a connection is established.
+   
+4.	shed, servers can send and receive data using send() and recv().
+5.	
 
 ## Client –Server Operations:
 
