@@ -1,5 +1,6 @@
 # EX.NO.1A - 			STUDY OF SOCKET PEOGRAMMING
 
+**DATE : 14.02.2024**
 ## Aim: 
 To perform a study on Socket Programming.
 
